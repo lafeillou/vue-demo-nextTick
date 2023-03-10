@@ -1,7 +1,7 @@
 <template>
-  <div>123</div>
+  <button id="counter" @click="increment">{{ count }}</button>
 </template>
 
-<script>
-export default {};
+<script setup>
+import { ref, nextTick } from 'vue';
 </script>
